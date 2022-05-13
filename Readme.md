@@ -1,6 +1,6 @@
 使用步驟
 - npm i
-- node app.js
+- npm run excel
 - 預設使用example.json來示範
 - 建議可以安裝vscode Excel Viewer 挺好用的
 
@@ -8,12 +8,12 @@
 ```
 app.js
 
-const excelConfig = {
+const excelConfig = [{
     entry:'./example.xlsx',  //讀取excel位置
     sheetNo:0, //讀取excel的哪張sheet
     outputDir:'./',  //導出位置
     outputName:'example', //導出檔案名稱
-}
+}]
 ```
 核心邏輯 getMultiValueArray 函式
 ```
