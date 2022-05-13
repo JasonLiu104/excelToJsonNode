@@ -72,13 +72,9 @@ function getMultiValueArray (
   lengthR,
   config
 ) {
-
-
-  if(config.outputName === 'plans'){
+  if(config.outputName === 'xxx'){
     return []
   }
-
-
 
   const result = []
   // 上到下
